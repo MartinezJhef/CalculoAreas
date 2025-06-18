@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AreaCalculator</class>
+ <widget class="QMainWindow" name="AreaCalculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculadora de Áreas</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <addaction name="menuFiguras"/>
+   <widget class="QMenu" name="menuFiguras">
+    <property name="title">
+     <string>Figuras</string>
+    </property>
+    <addaction name="actionCirculo"/>
+    <addaction name="actionTriangulo"/>
+    <addaction name="actionRectangulo"/>
+    <addaction name="actionCuadrado"/>
+   </widget>
+  </widget>
+  <addaction name="menubar"/>
+  <action name="actionCirculo">
+   <property name="text">
+    <string>Círculo</string>
+   </property>
+  </action>
+  <action name="actionTriangulo">
+   <property name="text">
+    <string>Triángulo</string>
+   </property>
+  </action>
+  <action name="actionRectangulo">
+   <property name="text">
+    <string>Rectángulo</string>
+   </property>
+  </action>
+  <action name="actionCuadrado">
+   <property name="text">
+    <string>Cuadrado</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
