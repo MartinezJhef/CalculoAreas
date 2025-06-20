@@ -27,3 +27,9 @@ pip install PyQt5
 ```bash
 python app.py
 ```
+## Integrantes
+| N.º | Apellidos y Nombres                  |
+|-----|--------------------------------------|
+| 1   | Martinez Valerio, Jheferson Jesús    |
+| 2   | Miranda Ponce, Jorge Mario           |
+| 3   | Ortega Poma, Pedro Claudio           |
